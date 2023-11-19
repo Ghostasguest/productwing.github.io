@@ -12,7 +12,7 @@
     margin: 0;
   }
   ul{
-    list-style-type: none
+    list-style-type: none;
   }
   
   header {
@@ -75,7 +75,7 @@
   
   #searchInput {
     margin-top: 50px;
-    width: 600px;
+    width: 75%;
     padding: 10px;
     border: 2px solid #ccc;
     border-radius: 5px;
@@ -92,7 +92,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 50px;
+  padding: 20px 10px;
   color: #776B5D;
 }
 .logo img {
@@ -113,6 +113,7 @@ nav {
 .nav-links a {
   text-decoration: none;
   color: #776B5D;
+  font-size: 30px;
 }
 
 .burger {
@@ -133,8 +134,8 @@ nav {
 
 @media screen and (max-width: 800px) {
   .nav-links {
-    display: none;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     width: 100%;
   }
@@ -142,10 +143,23 @@ nav {
   .nav-links li {
     padding: 10px 0;
   }
+  .nav-links a{
+    padding: 0px 20px;
+  }
 
   .burger {
     display: flex;
   }
+}
+
+.nav-active {
+  display: flex;
+}
+
+.imagecontent {
+  width: 90%;
+  height: 200px;
+  border-radius: 1rem;
 }
 
 .nav-active {
