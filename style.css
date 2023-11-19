@@ -55,8 +55,7 @@
   .product p {
     color: #776B5D;
     font-size: 1.1rem;
-    margin-bottom: 15px;
-  }
+    }
   
   .product a {
     display: inline-block;
@@ -153,7 +152,11 @@ nav {
   display: flex;
 }
 
-  
+.imagecontent{
+  width : 90%;
+  height: 200px;
+  border-radius: 1rem;
+}
   
   
   
